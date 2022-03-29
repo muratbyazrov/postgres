@@ -1,3 +1,5 @@
+[Содержание](README.md)
+
 # constraints
 
 ОГРАНИЧЕНИЯ
@@ -14,3 +16,6 @@
 
 Посмотреть все ограничения
 `select * from information_schema.table_constraints;`
+
+---
+[Содержание](README.md)

@@ -47,3 +47,6 @@ PostgreSQL поставляется со специальной программ
 Удалить пользоваталя: `dropuser murat`
 Посмотреть всех пользователей: `\du`;
 Подробнее на [postgres pro](https://postgrespro.ru/docs/postgresql/11/app-createuser)
+
+---
+[Содержание](README.md)

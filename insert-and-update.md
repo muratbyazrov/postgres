@@ -1,3 +1,5 @@
+[Содержание](README.md)
+
 # INSERT and UPDATE
 ## Вставка и модификация данных
 
@@ -70,3 +72,6 @@ WHERE
 ```SQL
 TRUNCATE courses;
 ```
+
+---
+[Содержание](README.md)

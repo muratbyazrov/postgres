@@ -1,18 +1,15 @@
 # SELECT
 
-Самый простой пример:
 ```SQL
-SELECT * FROM users;
+SELECT * FROM users; -- Самый простой пример
 ```
 
-Поля необязательно перечислять в том же порядке, в котором они идут в таблице.
 ```SQL
-SELECT username, email FROM users;
+SELECT username, email FROM users; -- Поля необязательно перечислять в том же порядке, в котором они идут в таблице.
 ```
 
-Выборка с условием
 ```SQL
-SELECT * FROM users WHERE birthday < '2018-10-21';
+SELECT * FROM users WHERE birthday < '2018-10-21'; --Выборка с условием
 ```
 
 Выборка с ограничением. В больших таблицах лучше всего пользоваться `LIMIT` 

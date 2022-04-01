@@ -12,6 +12,7 @@
 - [Оптимизация запросов](date-and-time.md)
 - [Работа с psql](psql.md)
 - [SELECT](select.md)
+- [Структуры данных](data-structure.md)
 - Создание и модификация базы данных (DDL)
 - Наполнение базы данных (DML)
 - Выборка данных (SELECT, WHERE, ORDER, LIMIT, DISTINCT, GROUP, HAVING)

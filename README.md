@@ -15,6 +15,8 @@
 - [Структуры данных](data-structure.md)
 - [Нормализация данных](data-normalize.md)
 - [Автоинкремент](auto-increment.md)
+- [Связи между таблицами](table-relationships.md)
+- [Объединения таблиц](joins.md)
 - Создание и модификация базы данных (DDL)
 - Наполнение базы данных (DML)
 - Выборка данных (SELECT, WHERE, ORDER, LIMIT, DISTINCT, GROUP, HAVING)

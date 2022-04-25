@@ -6,7 +6,7 @@
 Способы установки:
 - macos: `brew install postgresql`
 - ubuntu: `apt install postgresql`
-- docker: `docker run --name <name> -e POSTGRES_PASSWORD=<password> -d -p <port>:<port> postgres`
+- docker: `docker run --name <name> -e POSTGRES_PASSWORD=<password>  [-e POSTGRES_USER=<user>] -d -p <port>:<port> postgres`
 
 После установки автоматически:
 - создается пользователь `postgres`

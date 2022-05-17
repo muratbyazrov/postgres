@@ -16,7 +16,7 @@
   "receipts_mt_id_chunk_null_ukey" UNIQUE, btree (transaction_id) WHERE chunk_id IS NULL
 ```
 
-
+### EXPLAIN
 
 EXPLAIN статья на [хабре](https://habr.com/ru/post/203320/), как читать анализ;<br>
 EXPLAIN на [PostgresPro](https://postgrespro.ru/docs/postgrespro/14/using-explain), как читать анализ; 

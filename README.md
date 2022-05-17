@@ -9,7 +9,7 @@
 - [Ограничения](constraints.md)
 - [Типы данных](data-types.md)
 - [Дата и время](date-and-time.md)
-- [Оптимизация запросов](date-and-time.md)
+- [Оптимизация запросов](optimisation.md)
 - [Работа с psql](psql.md)
 - [SELECT](select.md)
 - [Структуры данных](data-structure.md)

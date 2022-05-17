@@ -3,10 +3,19 @@
 # Optimisation
 ## Оптимизация запросов
 
+### Индексы
+
 Про индексы подробно на [postgresPro](https://postgrespro.ru/docs/postgresql/11/indexes)
 
-Интересные факты: 
-Составные индексы по нескольким полям работают и отдельно для этих полей 
+#### Составные индексы:
+- Составные индексы по нескольким полям работают и отдельно для этих полей 
+- Сущетсвуют частично-составные индексы. Для работы такого индекса необходимо передавать все поля, входящие в индекс. Отдельно работать не будут.
+Пример частично-составные индекса: 
+```SQL
+  "receipts_mt_id_chunk_id_ukey" UNIQUE, btree (transaction_id, chunk_id) WHERE chunk_id IS NOT NULL
+  "receipts_mt_id_chunk_null_ukey" UNIQUE, btree (transaction_id) WHERE chunk_id IS NULL
+```
+
 
 
 EXPLAIN статья на [хабре](https://habr.com/ru/post/203320/), как читать анализ;<br>
